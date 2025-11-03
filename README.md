@@ -3,7 +3,6 @@
 Prof. Sara Kingsley · Heinz College · Carnegie Mellon University  
 
 **Team Members:** Ansh , Arthur, Jiayi 
-**Due Date:** November 2, 2025 · **Weight:** 20% (Part A 10% + Part B 10%)
 
 ---
 
