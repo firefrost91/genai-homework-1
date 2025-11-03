@@ -40,8 +40,7 @@ Each task’s results are analyzed for:
 - Sensitivity to instruction phrasing  
 
 ### 🧾 Deliverables
-- **`part_a_experiments.ipynb`** — Colab notebook with API calls, outputs, and visual examples.  
-- **`part_a_report.pdf`** — Includes analysis tables, discussion of patterns, and derived prompt engineering principles.
+- **`Separate Notebooks for 3 tasks of Part A`** — Colab notebook with API calls, outputs, and visual examples.  
 
 ---
 
@@ -56,7 +55,8 @@ We experimented with:
 3. **3-Shot Prompt** — Includes three example demonstrations.  
 4. **5-Shot Prompt** — Five example demonstrations (standard few-shot).  
 5. **Chain-of-Thought (CoT)** — Explicit reasoning before final answer.  
-6. **Custom Variants** — Example order shuffled and mislabeled versions.
+6. **Shuffled Prompt** — Example order shuffled and mislabeled versions.
+7. **Mislabeled Prompt** — Example order shuffled and mislabeled versions.
 
 ### 🧮 Dataset
 - **Benchmark:** HellaSWAG (validation split)  
