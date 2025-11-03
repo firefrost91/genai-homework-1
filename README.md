@@ -20,15 +20,15 @@ Our work is divided into two parts:
 
 ---
 
-## 🧩 Part A — Experimenting with Prompt Design (10%)
+## Part A — Experimenting with Prompt Design (10%)
 
-### 🎯 Objectives
+###  Objectives
 1. Design five diverse prompts for each task that differ in structure and style.  
 2. Submit each prompt to the OpenAI API and record model outputs.  
 3. Analyze which prompt styles perform best and why.  
 4. Derive best practices for prompt crafting based on observed LLM behavior.
 
-### 🧠 Tasks Explored
+### Tasks Explored
 - **Summarization:** condensing reports into concise insights - analysis done by Jiayi
 - **Creative Writing:** open-ended story construction - analysis done by Arthur
 - **Question Answering:** fact-based comprehension  - analysis done by Ansh
@@ -44,9 +44,9 @@ Each task’s results are analyzed for:
 
 ---
 
-## 🔬 Part B — Zero, Few-Shot & Chain-of-Thought Prompting (10%)
+## Part B — Zero, Few-Shot & Chain-of-Thought Prompting (10%)
 
-### 🎯 Objective
+###  Objective
 To measure how different prompting strategies and temperature settings affect LLM reasoning accuracy on a multiple-choice benchmark task.
 
 We experimented with:
@@ -58,12 +58,12 @@ We experimented with:
 6. **Shuffled Prompt** — Example order shuffled and mislabeled versions.
 7. **Mislabeled Prompt** — Example order shuffled and mislabeled versions.
 
-### 🧮 Dataset
+### Dataset
 - **Benchmark:** HellaSWAG (validation split)  
 - **Subset:** Randomly sampled instances for speed and reproducibility  
 - **Goal:** Evaluate each prompt type on the same set of questions  
 
-### 🧰 Code Overview
+### Code Overview
 
 #### `run_experiments()`
 Runs all prompt types for a given temperature and iteration; records accuracy and model outputs.
@@ -73,5 +73,5 @@ Sweeps across temperatures ( `[0.0, 0.4, 0.6, 1.0]` ) and aggregates results for
 
 
 
-Results are saved and auto-downloaded as:
+Results are saved and auto-downloaded in the PartB-results.csv file.
 
